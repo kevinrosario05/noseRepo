@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Keywords\" />
+    <Folder Include="Tests\" />
+    <Folder Include="ObjectRepository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="127.0.2651.72" />
+  </ItemGroup>
+
+</Project>
